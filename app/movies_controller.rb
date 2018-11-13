@@ -36,7 +36,6 @@ def can_be_created_in_a_block(args = {title: "Home Alone", release_date: 1990})
     movie = Movie.new
     movie.title = args[:title]
     movie.release_date = args[:release_date]
-    movie.save
     # movie
     binding.pry
   end
