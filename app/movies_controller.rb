@@ -55,7 +55,7 @@ def can_find_by_multiple_attributes
   # attributes = {
   #   title = "Title"
   # }
-  binding.pry
+  # binding.pry
   Movie.find_by(attributes)
 end
 
