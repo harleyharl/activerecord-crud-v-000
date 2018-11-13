@@ -37,7 +37,7 @@ def can_be_created_in_a_block(args = {})
     movie.title = args[:title]
     movie.release_date = args[:release_date]
     movie.save
-    binding.pry
+    # binding.pry
   end
 end
 
