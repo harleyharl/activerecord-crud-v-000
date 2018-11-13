@@ -36,7 +36,7 @@ def can_get_the_first_item_in_the_database
 end
 
 def can_get_the_last_item_in_the_database
-  Movie.find([-1].flatten)
+  Movie.find([-1].join)
 end
 
 def can_get_size_of_the_database
