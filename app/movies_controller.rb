@@ -37,6 +37,7 @@ end
 
 def can_get_the_last_item_in_the_database
   db_size = Movie.count
+  binding.pry
   Movie.find(db_size)
 end
 
